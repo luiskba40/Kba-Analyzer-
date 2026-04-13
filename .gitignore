@@ -1,6 +1,30 @@
 # Prerequisites
 *.d
 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# dotenv
+.env
+
+# KBA runtime data (do not commit generated keys/certs)
+/tmp/kba_certs/
+/tmp/kba_keys/
+
+# Flask-Migrate (keep versions, ignore compiled)
+backend/migrations/
+
 # Compiled Object files
 *.slo
 *.lo
